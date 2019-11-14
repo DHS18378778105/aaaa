@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		.box1{
+			width: 300px;
+			height: 520px;
+			
+			margin: 0 auto;
+		}
+		.box2{
+			width: 100%;
+			height: 150px;
+			background: url(img/ia_100000075.png) no-repeat 0px 0px/300px 150px;
+		}
+		.hmig{
+			width: 50px;
+			height: 50px;
+			display: block;
+			border-radius: 25px;
+			margin: 10px auto;
+		}
+		.hbox1{
+			width: 100%;
+			height: 18px;
+			font-size: 12px;
+			
+			text-align: center;
+			line-height: 10px;
+		}
+		.hbox2{
+			width: 100%;
+			height: 18px;
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+		
+		.hb2a1{
+			width: 100px;
+			height: 18px;
+			display: block;
+			float: left;
+			background: #ffe4db;
+			color: #ff5000;
+			border-radius: 5px;
+			line-height: 18px;
+			margin-left: 50px;
+			
+		}
+		.hb2a2{
+			width: 100px;
+			height: 18px;
+			display: block;
+			float: left;
+			background: #ffe4db;
+			color: #ff5000;
+			border-radius: 5px;
+			height: 18px;
+			margin-left: 10px;
+		}
+		.lt{
+			display: inline-block;
+			margin-top: 1px;
+			width: 16px;
+			height: 16px;
+			background-image:url(img/ia_100000085.png);
+			background-position: 0px -573px;
+		}
+		.lt2{
+			display: inline-block;
+			width: 75px;
+			height: 15px;
+			position: relative;
+			top: -4px;
+		}
+		.hy{
+			display: inline-block;
+			margin-top: 1px;
+			width: 16px;
+			height: 16px;
+			background-image:url(img/ia_100000085.png);
+			background-position: 0px -528px;
+		}
+		.hy2{
+			display: inline-block;
+			width: 75px;
+			height: 15px;
+			position: relative;
+			top: -4px;
+		}
+		.hbox3{
+			width: 100%;
+			height: 28px;
+			
+		}
+		.dl{
+			width: 94px;
+			height: 28px;
+			background:#ff6705;
+			border-radius: 5px;
+			text-align: center;
+			line-height: 28px;
+			color: white;
+			float: left;
+			font-size: 12px;
+			font-weight: 700;
+			margin-left: 15px;
+		}
+		.zc{
+			width: 80px;
+			height: 28px;
+			background:#ff6705 ;
+			border-radius: 5px;
+			text-align: center;
+			line-height: 28px;
+			color: white;
+			float: left;
+			font-size: 12px;
+			font-weight: 700;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.kd{
+			width: 80px;
+			height: 28px;
+			background:#ff6705 ;
+			border-radius: 5px;
+			text-align: center;
+			line-height: 28px;
+			color: white;
+			float: left;
+			font-size: 12px;
+			font-weight: 700;
+		}
+		.gg{
+			width: 100%;
+			height: 25px;
+			margin-top: 15px;
+			background:#ffe4db ;
+			text-align: center;
+		}
+		.gg a{
+			display: inline-block;
+			width: 144px;
+			height: 25px;
+			font-size: 12px;
+			line-height: 25px;
+			font-weight: 700;
+			text-decoration: none;
+			color: #ff5000;
+		}
+		.gg div{
+			width: 0px;
+			height: 0px;
+			float: right;
+			position: relative;
+			top: 7.5px;
+			right:50px;
+			border: solid 5px #ff5000;
+			border-top:solid 5px transparent;
+			border-right:solid 5px transparent;
+			border-bottom: solid 5px transparent;
+			
+		}
+		.nav{
+			width: 100%;
+			height: 24px;
+			margin-top: -10px;
+		}
+		.nav ul{
+			display: block;
+			width: 260px;
+			height: 24px;
+			
+			
+			
+		}
+		.nav ul li{
+			width: 50px;
+			height: 24px;
+			list-style: none;
+			float: left;
+			line-height: 24px;
+		}
+		.nav ul li a{
+			text-decoration: none;
+			font-size: 13px;
+			color: black;
+			
+		}
+		.box3{
+			width: 100%;
+			height: 60px;
+			
+			
+			
+		}
+		.box3 ul{
+			width: 100%;
+			height: 60px;
+			margin: 0;
+			margin-left: -40px;
+		}
+		.box3 ul li{
+			list-style: none;
+			float: left;
+			margin-left: 30px;
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 25px;
+			color: #ff5000;
+		}
+		.box4{
+			width: 100%;
+			height: 160px;
+			
+		}
+		.box4 div{
+			width: 73px;
+			height: 77px;
+			border: solid 1px gainsboro;
+			float: left;
+			
+			text-align: center;
+			font-size: 12px;
+		}
+		.b4sp1{
+			width: 22px;
+			height: 25px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px 0px;
+		}
+		.b4sp2{
+			width: 24px;
+			height: 23px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px -90px;
+		}
+		.b4sp3{
+			width: 24px;
+			height: 24px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px -45px;
+		}
+		.b4sp4{
+			width: 24px;
+			height: 23px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px -133px;
+		}
+		.b4sp5{
+			width: 24px;
+			height: 27px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px -174px;
+		}
+		.b4sp6{
+			width: 24px;
+			height: 24px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px -222px;
+		}
+		.b4sp7{
+			width: 24px;
+			height: 23px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px -266px;
+		}
+		.b4sp8{
+			width: 24px;
+			height: 20px;
+			display: block;
+			margin: 10px auto;
+			background-image: url(img/ia_100000085.png);
+			background-position: 0px -311px;
+		}
+		.box5{
+			width: 100%;
+			height: 30px;
+			
+			line-height: 30px;
+			
+		}
+		.box5 a{
+			font-size: 12px;
+			text-decoration: none;
+			color: black;
+			margin-right: 20px;
+			float: right;
+			font-weight: 600;
+		}
+		.foot{
+			width: 100%;
+			height:50px;
+		
+			
+		}
+		.foot img{
+			width: 32px;
+			height: 32px;
+			display: block;
+			float: left;
+			margin-top:11px;
+			margin-left: 25px;
+		}
+	</style>
+	<body>
+		<div class="box1">
+			<div class="box2">
+				<img src="img/headLogin.jpg" class="hmig"/>
+				<div class="hbox1">
+					<span>hi，你好</span>
+				</div>
+				<div class="hbox2">
+					<a class="hb2a1" href="#"><span class="lt"></span><span class="lt2">领淘金币抵钱</span></a>
+					<a class="hb2a2" href="#"><span class="hy"></span><span class="hy2">会员俱乐部</span></a>
+				</div>
+				<div class="hbox3">
+					<div class="dl">登录</div>
+					<div class="zc">注册</div>
+					<div class="kd">开店</div>
+				</div>
+				<div class="gg">
+					<a href="#">网上有害信息举报区</a>
+					<div></div>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="#">公告</a></li>
+						<li><a href="#">规则</a></li>
+						<li><a href="#">论坛</a></li>
+						<li><a href="#">安全</a></li>
+						<li><a href="#">公益</a></li>
+					</ul>
+				</div>
+				<div class="box3">
+					<ul>
+						<li>淘宝11/11大促销</li>
+						<li>淘宝11/11大促销</li>
+						<li>淘宝11/11大促销</li>
+						<li>淘宝11/11大促销</li>
+					</ul>
+				</div>
+				<div class="box4">
+					<div><span class="b4sp1"></span><p>冲话费</p></div>
+					<div><span class="b4sp2"></span><p>旅行</p></div>
+					<div><span class="b4sp3"></span><p>车险</p></div>
+					<div><span class="b4sp4"></span><p>游戏</p></div>
+					<div><span class="b4sp5"></span><p>彩票</p></div>
+					<div><span class="b4sp6"></span><p>电影</p></div>
+					<div><span class="b4sp7"></span><p>酒店</p></div>
+					<div><span class="b4sp8"></span><p>理财</p></div>
+				</div>
+				<div class="box5"> &nbsp;&nbsp;阿里APP<a href="#">更多></a></div>
+				<div class="foot">
+					<img src="img/ia_100000039.png" />
+					<img src="img/ia_100000041.png" />
+					<img src="img/ia_100000043.png" />
+					<img src="img/ia_100000045.png" />
+					<img src="img/ia_100000047.png" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			background: gray;
+			float: left;
+			margin: 20px;
+		}
+		.box1{
+			border-radius: 20px ;
+		}
+		.box2{
+			border-radius: 20px 20px 0px 20px;
+			position: relative;
+			
+		}
+		.box3{
+			position: relative;
+			border-radius: 10px;
+		}
+		.box4{
+			border-radius: 100px;
+		}
+		.box5{
+			border-radius: 100px 0px 0px 100px;
+		}
+		.box6{
+			height: 100px;
+			border-radius: 100px 100px 0px 0px;
+		}
+		.box7{
+			height: 100px;
+			border-radius:45px ;
+		}
+		.box8{
+			border-radius: 10px 100px 0px 100px;
+		}
+		.box9{
+			border: solid 2px black;
+			height: 100px;
+			background: white;
+			position: relative;
+			border-radius: 10px;
+		}
+		.mb1{
+			width: 0px;
+			height: 0px;
+			position: absolute;
+			right: -20px;
+			bottom: -20px;
+			border: solid 20px white;
+			border-top:solid 20px transparent;
+			border-left:solid 20px transparent;
+			
+		}
+		.mb2{
+			
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: -30px;
+			left: -30px;
+			border-radius: 10px;
+			background: white;
+		}
+		.mb3{
+			width: 20px;
+			height: 20px;
+			border-radius: 10px;
+			position: absolute;
+			top: -30px;
+			right: -30px;
+			background: white;
+		}
+		.mb4{
+			width: 0px;
+			height: 0px;
+			background: transparent;
+			position: absolute;
+			top: 80px;
+			left: 0px;
+			border: solid 15px black;
+			border-left:solid 15px transparent;
+			border-right:solid 15px transparent;
+			border-bottom:solid 15px transparent;
+		}
+		.mb5{
+			width: 0px;
+			height: 0px;
+			background: transparent;
+			position: absolute;
+			top: 78px;
+			left: 0px;
+			border: solid 15px white;
+			border-left:solid 15px transparent;
+			border-right:solid 15px transparent;
+			border-bottom:solid 15px transparent;
+		}
+	</style>
+	<body>
+		<div class="box1"></div>
+		<div class="box2">
+			<div class="mb1"></div>
+		</div>
+		<div class="box3">
+			<div class="mb2"></div>
+			<div class="mb3"></div>
+		</div>
+		<div class="box4"></div>
+		<div class="box5"></div>
+		<div class="box6"></div>
+		<div class="box7"></div>
+		<div class="box8"></div>
+		<div class="box9">
+			<div class="mb4"></div>
+			<div class="mb5"></div>
+		</div>
+	</body>
+</html>
